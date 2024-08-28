@@ -1,0 +1,15 @@
+
+body{
+    background-color: blueviolet;
+
+}
+p, h2 {
+    background-color: aqua;
+    color: #ff0909;
+    text-align: center;
+    padding: 60px; 
+    margin: 90px;
+    border: 2px dashed #e51216;
+    font-family: Arial;
+    font-weight: bold;
+}
