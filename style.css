@@ -74,7 +74,21 @@ form button{
 
      #search-result img{
         width: 100%;
-        height: 230px;
+        height: 250px;
         object-fit: cover;
         border-radius: 5px;
+     }
+     /* Step 2 5. The page needs to be responsive to different screen sizes (mobile and desktop) */
+     @media screen and (max-width: 900px) {
+        #search-result{
+            grid-template-columns: 1fr 1fr;
+            width: 90%;
+        }
+     }
+
+     @media screen and (max-width: 600px) {
+        #search-result{
+            grid-template-columns: 1fr;
+            width: 90%;
+        }
      }
